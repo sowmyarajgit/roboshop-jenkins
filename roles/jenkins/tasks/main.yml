@@ -2,4 +2,9 @@
   ansible.builtin.include_tasks:
     file: pipeline.yml
   loop:
-    - {name: "frontend", dir: "cipipeline"}     
+    - {name: "frontend", dir: "cipipeline"}  
+    - {name: "cart", dir: "cipipeline"}  
+    - {name: "catalogue", dir: "cipipeline"} 
+    - {name: "user", dir: "cipipeline"} 
+    - {name: "payments", dir: "cipipeline"}
+    - {name: "shipping", dir: "cipipeline"}  
