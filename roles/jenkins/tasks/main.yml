@@ -1,5 +1,5 @@
 - name: Include task list in play
   ansible.builtin.include_tasks:
         file: pipeline.yml
-   loop:
+  loop:
     - frontend     
