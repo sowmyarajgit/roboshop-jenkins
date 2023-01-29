@@ -3,7 +3,7 @@ pipeline_jobs:
     - {name: "cart", dir: "cipipeline"}  
     - {name: "catalogue", dir: "cipipeline"} 
     - {name: "user", dir: "cipipeline"} 
-    - {name: "payments", dir: "cipipeline"}
+    - {name: "payment", dir: "cipipeline"}
     - {name: "shipping", dir: "cipipeline"}
 
 folders:
